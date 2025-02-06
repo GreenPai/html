@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    height: 35px;
+}
+
+footer > p {
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #777;
+    overflow: hidden;
+}
+
+footer > p >.copyright{
+    float: left;
+}
+
+footer > p > .version{
+    float: right;
+}
