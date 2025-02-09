@@ -1,28 +1,59 @@
 footer {
-    width: 100%;
-    height: auto;
-    border: 1px solid blue;
-    box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 footer > div {
-    width: 100%;
-    border: 1px solid green;
-    box-sizing: border-box;            
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer .terms {
+  float: left;
+  margin-top: 14px;
+  color: #eee;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer .terms > a:first-child {
+  color: #ff6a00;
+}
+
+footer .terms > a {
+  color: #eee;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 footer > div:nth-child(1) {
-    height: 50px;
+  height: 50px;
+  background-color: #626262;
 }
 
 footer > div:nth-child(2) {
-    height: 156px;            
+  height: 156px;
+  background-color: #434343;
 }
 
 footer > div > div {
-    width: 1100px;
-    height: 100%;
-    border: 1px solid orange;
-    box-sizing: border-box;
-    margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+footer > div > div img {
+  float: right;
+  margin-top: 16px;
+}
+
+footer > div > div .info {
+  float: left;
+  margin-top: 16px;
+  color: #aca9a9;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 26px;
 }
